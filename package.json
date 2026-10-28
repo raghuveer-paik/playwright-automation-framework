@@ -1,0 +1,27 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Production-ready Playwright UI and API automation framework with Docker, GitHub Actions, Reporting, and AI-ready architecture.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghuveer-paik/playwright-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/raghuveer-paik/playwright-automation-framework/issues"
+  },
+  "homepage": "https://github.com/raghuveer-paik/playwright-automation-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
