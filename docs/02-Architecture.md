@@ -1,22 +1,103 @@
-# Framework Vision
+# Framework Architecture
 
-Goal:
-Build a scalable enterprise-grade automation framework.
+## Objective
 
-Technology Stack:
+Build a scalable, maintainable, and enterprise-ready test automation framework using Playwright and TypeScript.
 
-- Java
+---
+
+# Technology Stack
+
+## Core
+
+- TypeScript
+- Node.js
 - Playwright
-- TestNG
-- Maven
-- Rest Assured
-- Docker
+
+## Testing
+
+- Playwright Test Runner
+- Playwright Assertions
+- Playwright API Testing
+
+## Reporting
+
+- Playwright HTML Reports
+- Allure Reports (Future)
+
+## CI/CD
+
 - GitHub Actions
-- Extent Reports
 
-Design Principles:
+## Containerization
 
-- Maintainability
-- Reusability
-- Scalability
-- Simplicity
+- Docker
+- Docker Compose
+
+## Code Quality
+
+- ESLint
+- Prettier
+
+---
+
+# Design Principles
+
+## Maintainability
+
+Easy to update and enhance.
+
+## Reusability
+
+Maximum reuse of components.
+
+## Scalability
+
+Framework should support 1000+ test cases.
+
+## Readability
+
+Readable code and predictable structure.
+
+## Separation of Concerns
+
+Tests should not contain page implementation details.
+
+---
+
+# Application Under Test
+
+Website:
+
+https://automationexercise.com
+
+Modules:
+
+- Authentication
+- Products
+- Cart
+- Checkout
+
+---
+
+# High-Level Architecture
+
+Tests
+↓
+Page Objects
+↓
+Playwright APIs
+↓
+Browser
+
+Supporting Layers
+
+Tests
+↓
+Fixtures
+↓
+Utilities
+↓
+Configuration
+↓
+Reports
